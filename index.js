@@ -1,16 +1,11 @@
-import {concatInvert, concatOnly} from './manejo-strings.js'
-let textoEntrada01 = "Escuela";
+import { EJ1 } from "./EJ1.js";
 
-let textoEntrada02 = "ORT";
+EJ1();
+console.log("-----------------------")
+import { EJ2 } from "./EJ2.js";
 
+EJ2();
+console.log("-----------------------")
+import { EJ3 } from "./EJ3.js";
 
-const textoSalida = concatInvert(textoEntrada01, textoEntrada02);
-
-console.clear();
-
-console.log(`Textos de Entrada: "${textoEntrada01}" y "${textoEntrada02}"`);
-
-console.log(`Texto de Salida: "${textoSalida}"`);
-
-
- 
+EJ3();
