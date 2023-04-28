@@ -9,3 +9,10 @@ console.log("-----------------------")
 import { EJ3 } from "./EJ3.js";
 
 EJ3();
+console.log("-----------------------")
+
+import { EJ4 } from "./EJ4.js";
+EJ4();
+
+import { Pizza } from "./pizza-services.js"
+console.log( await Pizza.getById(3))
